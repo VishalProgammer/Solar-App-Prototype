@@ -1,0 +1,42 @@
+#Qhead{
+   text-align: center;
+}
+#Qhead h1{
+    font-weight: 400;
+    margin: 1vh 0;
+}
+
+#q1{
+    width: 100vw;
+    background-color: aliceblue;
+    padding: 3vh;
+}
+
+#ques{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+    text-align: center;
+}
+
+#ques img{
+    width: auto;
+    height: 60vh;
+}
+#opt{
+    margin-top: 20vh;
+}
+#opt h4:hover{
+    background-color: rgb(42, 61, 165);
+    cursor: pointer;
+}
+#ques h4{
+    font-size: 1.5vw;
+    padding: 3vw;
+    border: black 2px solid;
+    border-radius: 100%;
+    background-color: rgb(170, 154, 154);
+    margin: 1vh 1vw;
+    
+}

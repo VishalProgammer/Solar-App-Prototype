@@ -1,0 +1,213 @@
+#S-main{
+    color: white;
+    height: 100%;
+    background-color: black;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+#canva-container{
+    width: 60vw;
+    height: 100%;
+}
+
+
+#des{
+    text-align: justify;
+    width: 40%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0);
+    
+} 
+
+#des button{
+    margin-top: 2vh;
+    font-size: large;
+    background-color: black;
+    color: white;
+}
+
+#des p{
+    font-size: large;
+    
+}
+#des h1{
+    font-size: xx-large;
+    font-weight: 200;
+}
+
+
+
+@media(max-width:960px) {
+    #des{
+        text-align: justify;
+        width: auto;
+        height: 40%;
+        
+    } 
+    #canva-container{
+        width: 100%;
+        height: 60vw;
+    }
+    #S-main{
+        color: white;
+        height: 100%;
+        background-color: black;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/* EARTH */
+
+#S-main2{
+    color: white;
+    height: 100%;
+    background-color: black;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#canva-container2{
+    width: 100%;
+    height: 80%;
+}
+
+
+#des2{
+    text-align: justify;
+    width: auto;
+    height: 20%;
+    
+} 
+
+#des2 button{
+    margin-top: 2vh;
+    font-size: large;
+    background-color: black;
+    color: white;
+}
+
+#des2 p{
+    font-size: large;
+    
+}
+#des2 h1{
+    font-size: xx-large;
+    font-weight: 200;
+}
+
+pre{
+    display: inline;
+}
+
+
+
+@media(max-width:960px) {
+    #des2{
+        text-align: justify;
+        width: auto;
+        height: 40%;
+        
+    } 
+    #canva-container2{
+        width: 100%;
+        height: 60vw;
+    }
+    #S-main2{
+        color: white;
+        height: 100%;
+        background-color: black;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+#S-main3{
+    height: 100%;
+    width: 100%;
+    animation-name:back;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+    align-content: center;
+    justify-content: center;
+    background-color: #c4c4c3;
+}
+
+@keyframes back {
+    0%{              
+        background-color: black;
+    }
+    100%{
+        background-color: #c4c4c3;
+    }
+  }
+
+  #canva-container3{
+    width: 100vw;
+  }
+
+  #gif{
+    width: 80%;
+    padding-top: 20px;
+    padding-left: 20%;
+
+  }
+
+  #des3{
+    width: auto;
+    text-align: center;
+  }
+
+  #des3 pre{
+    font-size: 2vw;
+  }
+
+  #des3 button{
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    margin-top: 1vh;
+    background-color: greenyellow;
+    text-align: center;
+    
+    
+  }
+
+  #S-main4{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 1vw;
+    align-content: center;
+    justify-content: center;
+    background-color: #c4c4c3;
+}
+#des4{
+    padding-top: 10%;
+}
+
+#des4 pre{
+    font-size: 2vw;
+  }
+
+#des4 button{
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    margin-top: 1vh;
+    background-color: greenyellow;
+    text-align: center;
+    
+    
+  }
